@@ -57,7 +57,7 @@ Now we have a basic layout for the two small boxes on the bottom right! Let's st
 }
 ```
 
-- Finally, let's style the divider:
+- Next, let's style the divider:
 ```
 #divider-5 {
   height: 10px;
@@ -65,6 +65,52 @@ Now we have a basic layout for the two small boxes on the bottom right! Let's st
 }
 ```
 
+- Finally, let's add a divider, named `divider-6`, to the left of the bottom right column:
+```
+<div id="bottom-right-column" class="right">
+  <div class="small-box blue right"></div>
+  <div id="divider-5" class="black right"></div>
+  <div class="small-box yellow right"></div>
+</div>
+
+<div id="divider-6" class="right black"></div>
+```
+
 ### Step 11: Bottom Middle Box
+- *Inside* the `bottom-row` div, we're going to add a `bottom-middle-box` div:
+```
+<div id="divider-6" class="right black"></div>
+        
+<div id="bottom-middle-box" class="right"></div>
+```
+
+- Let's style the `bottom-middle-box` div! We're going to give it a height of 100px and a width of 240px.
+```
+#bottom-middle-box {
+  height: 100px;
+  width: 240px;
+}
+```
+
+- Next, let's add a divider, `divider-4` to the left of that box, with the `.black` and `.right` classes assigned to it:
+```
+        <div id="bottom-middle-box" class="right"></div>
+        <div id="divider-4" class="black right"></div>
+```
+
+- Let's style the divider we just added:
+```
+#divider-4 {
+  height: 100px;
+  width: 10px;
+}
+```
 
 ### Step 12: Bottom Left Box (Blue)
+- Last box! Let's add a div for the `bottom-left-box`:
+```
+        <div id="divider-4" class="black right"></div>
+        <div id="bottom-left-box" class="blue right"></div>
+```
+
+- Let's style it:
