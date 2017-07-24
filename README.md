@@ -9,6 +9,20 @@ View the CodePen [here](https://codepen.io/nancypwong/pen/vZaLXj)
 
 # Tutorial
 
+## Setup
+Let's set up the HTML file:
+```
+<!DOCTYPE html>
+  <head>
+  </head>
+  
+  <body>
+    
+    
+  </body>
+</html>
+```
+
 ## First Half
 [First half](https://googlecreativelab.github.io/coder-projects/projects/mondrian/) will get you to here:
 
