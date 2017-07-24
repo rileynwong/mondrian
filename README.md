@@ -5,6 +5,8 @@ Modified from [Google Coder project](https://googlecreativelab.github.io/coder-p
 
 <img src="http://i.imgur.com/lETX0Is.jpg" width="400" alt="Mondrian-style Code Painting">
 
+View the CodePen [here](https://codepen.io/nancypwong/pen/vZaLXj)
+
 # Tutorial
 
 ## First Half
