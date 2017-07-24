@@ -113,4 +113,11 @@ Now we have a basic layout for the two small boxes on the bottom right! Let's st
         <div id="bottom-left-box" class="blue right"></div>
 ```
 
-- Let's style it:
+- Let's style `bottom-left-box`:
+```
+#bottom-left-box {
+  width: 100px;
+  height: 100px;
+}
+```
+
